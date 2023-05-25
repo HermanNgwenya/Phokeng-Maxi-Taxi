@@ -3,16 +3,19 @@ const form = document.getElementById('maxi');
 const maxiPh = document.getElementById('taxi');
 const formDiv = document.getElementById('div_form')
 const icon = document.getElementById('taxi_icon')
+const logInButton = document.getElementById('logInButton')
 
-maxiPh.addEventListener('click', (e) => {
+logInButton.addEventListener('click', (e) => {
     e.preventDefault()
 
     if (formDiv.style.display === "none") {
         formDiv.style.display = "block";
         icon.style.display = "none"
+        logInButton.style.display = "none"
     } else {
         formDiv.style.display = "none";
         icon.style.display = "block"
+        logInButton.style.display = "block"
     }
 
 });

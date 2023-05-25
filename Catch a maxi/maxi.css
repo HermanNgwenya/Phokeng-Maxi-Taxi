@@ -1,28 +1,58 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 80vh;
-    background-color: #745ec2;
+    background-color: #1a1a18;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
 }
 
+.button #logIn {
+   width: 100px;
+   height: 30px;
+   align-items: center;
+   border: 0%;
+   border-radius: 15px;
+   background: #bbbbbb;
+   box-shadow:  13px 13px 17px #654242,
+                -13px -13px 27px #373333;
+}
 .sign__form {
     width: 250px;
-    height: 30px
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    
 }
 
 #signUp {
-    width: 257px;
+    width: 150px;
     height: 30px;
+    margin-top: 25px;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  13px 13px 17px #654242,
+                 -13px -13px 27px #efefef;
 }
 
 .form__driver {
     display: none;
+
+}
+
+.sign__form,.driver_data {
+    width: 300px;
+
 }
 
 .icon__taxi {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     
 }
 
