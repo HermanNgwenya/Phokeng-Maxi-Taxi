@@ -1,6 +1,5 @@
 
 body {
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,35 +8,6 @@ body {
     background-color: #1a1a18;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: gold;
-=======
-    
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    
-}
-
-nav {
-    width: 100%;
-    background-color: rgb(255, 200, 0)
-}
-
-h3 {
-    color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-.myIcons {
-    display: flex;
-    justify-content: center;
-    margin-top: -70px;
-}
-
-.container {
-    display: flex;
-    padding: 30px;
-    margin: 100px;
->>>>>>> fe972f9f036a871932b89399b0830a900fd9b78e
 }
 
 .button #logIn {
@@ -59,13 +29,8 @@ h3 {
     
 }
 
-<<<<<<< HEAD
 #signUp {
     width: 150px;
-=======
-#signUp, #login, #signIn, #back, #loginCommuter, #signUpCommuter, #signInCommuter, #commuterBack {
-    width: 100px;
->>>>>>> fe972f9f036a871932b89399b0830a900fd9b78e
     height: 30px;
     margin-top: 25px;
     margin-left: 80px;
@@ -94,15 +59,10 @@ h3 {
 
 }
 
-<<<<<<< HEAD
 .icon__taxi {
     display: flex;
     justify-content: center;
     
-=======
-.form__commuter {
-    display: none;
->>>>>>> fe972f9f036a871932b89399b0830a900fd9b78e
 }
 
 .icon_commuter, .icon__taxi {
